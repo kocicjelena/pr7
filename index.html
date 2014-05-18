@@ -9,14 +9,14 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
-	
+	<script src="js/responsiveimgs.js"></script>
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-<link href="media-queries.css" rel="stylesheet" type="text/css">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
 <script>
@@ -34,8 +34,9 @@ function xmlParser(xml) {
 
 $(xml).find("Book").each(function () {
  $(".main").append('<div class="book"><div class="title">' + $(this).find("one").text() +   '</div><div class="tw">' + $(this).find("tw").text() + '</div><div   class="date">Published ' + $(this).find("t").text() + '</div></div>');
-  $("#images").append('<img src="' + $(this).find("one").text() + '" />');
-   $("#images2").append('<img src="' + $(this).find("tw").text() + '" />');
+ 
+   $("#images").append('<img src="' + $(this).find("one").text() + '" />');
+	 $("#images2").append('<img src="' + $(this).find("tw").text() + '" />');
 	  $("#images3").append('<img src="' + $(this).find("t").text() + '" />');
 
 
@@ -88,51 +89,15 @@ $('.has-sub').click( function(e) {
   Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </br> 
   Perferendis hic sapiente asperiores minus animi nam temporibus 
    </br> cumque magnam doloribus vitae voluptatum cupiditate nostrum omnis vero adipisci recusandae maxime quo labore.
- </br> </br> </br> </br> </br> ></br></h2><P>    >    </P><div></div></div>
+ </br>   D </br> </br> </br> </br></br></h2>
+ <div id="parent"><p style="float:right;">  <a href="http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1" onclick="javascript:void window.open('http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1','1400161055165','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;" style="color:white;">D</a></p></div>
+ <div id="parent2"><a href="http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1" onclick="javascript:void window.open('http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1','1400161055165','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;"><div class="inline" id="images"></div></a>
+<div class="inline" id="images2"></div><div class="inline" id="images3"></div></div></br>
  
-		<table border="0" cellpadding="0" cellspacing="0" class="full-width" style="width: 100%">
-          <tr>
-            <td>
-              <table border="0" cellpadding="0" cellspacing="0" class="full-width">
-                <tr>
-                  <td align="center" valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
-                      <tr>
-                        <td align="center" class="mobile-stack" valign="top">
-                          <table align="left" border="0" cellpadding="0" cellspacing="0" class="three-col">
-                            <tr>
-                              <td><div id="images"></div></div>
-</td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td align="center" class="mobile-stack" valign="top">
-                          <table align="left" border="0" cellpadding="0" cellspacing="0" class="three-col">
-                            <tr>
-                              <td><div id="images2"></div></td>
-                            </tr>
-                          </table>
-                        </td>
-						 <td align="center" class="mobile-stack" valign="top">
-                          <table align="left" border="0" cellpadding="0" cellspacing="0" class="three-col">
-                            <tr>
-                              <td><div id="images3"></div></td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-
+		
 
  <!-- <img src="https://www.dropbox.com/s/gslaewzbnv6o9jy/most.JPG" id="load" width="16" height="11"   align="absmiddle"/>-->
-gde je slika <div id="images2"></div>main<div class="main"></div>
-<a href="http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1" onclick="javascript:void window.open('http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1','1400161055165','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;"><div id="images2"></div></a>
+
 <footer>
 	 <div class="leftColumn">
         
@@ -140,7 +105,7 @@ gde je slika <div id="images2"></div>main<div class="main"></div>
 	  <div class="rightColumn">Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.Mus elit Morbi mus enim lacus at quis Nam eget morbi.
       </div>
 	  <!-- <img src="https://www.dropbox.com/s/7smitaja8p7b9ei/dev.JPG" />-->
-	</footer>
+	</footer></div>
 	</div>
 </body>
 </html>
