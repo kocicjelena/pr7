@@ -119,11 +119,9 @@ float: left;
 }
 #images2 {
   display: inline-block; 
-  width: 90%;
 }
 #images3 {
   display: inline-block; 
-  width: 90%;
 }
 .clearBoth { clear:both; }
 .stripe-2 {
