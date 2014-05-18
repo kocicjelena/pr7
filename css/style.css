@@ -221,9 +221,11 @@ smaller than 650
 	#wrapper {
 		width: 70%;
 	}
+       .leftColumn { }
 
+   .rightColumn { float: left; width: auto; }
 	.footer {position:fixed;
-	width: 60%;
+	width: 70%;
    left:0px;
    bottom:0px;font-size: 50%}
 
@@ -262,26 +264,10 @@ smaller than 560
 
     footer.footer {position:fixed;
    left:0px;
-   bottom:0px;font-size: 20%}
-#images2 {
-  visibility: none;
-width: 0%;  
-}
-#images3 {
-  visibility: none; 
-  width: 0%;
-}
+   bottom:0px;font-size: 40%}
 	}
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
     ul.egmenu li:hover ul { display: block;  }
 	
-#images2 {
-  visibility: none;
-width: 0%;  
-}
-#images3 {
-  visibility: none; 
-  width: 0%;
-}
 }
