@@ -324,6 +324,14 @@ footer .rightColumn { float: right;
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
+   #images2 {
+  display: inline-block; 
+  width: 70%;
+}
+#images3 {
+  display: inline-block; 
+  width: 70%;
+}
    
 }
 
@@ -385,6 +393,14 @@ smaller than 650
    left:0px;
    bottom:0px;font-size: 50%}
    img { border: 0; width: 60%; display: block; max-width: 60%; }
+   #images2 {
+  display: inline-block; 
+  width: 70%;
+}
+#images3 {
+  display: inline-block; 
+  width: 70%;
+}
 
 }
 
