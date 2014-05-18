@@ -215,6 +215,10 @@ ul.egmenu li:hover ul { display: block;  }
 	padding: 0;
 	
 }
+    #parent2 {
+  height: 98%;
+  width: 98%;
+}
 }
 @media screen and (max-width: 780px) {
 
@@ -233,6 +237,10 @@ ul.egmenu li:hover ul { display: block;  }
 	margin: 0;
 	padding: 0;
 	
+}
+     #parent2 {
+  height: 78%;
+  width: 78%;
 }
 }
 /************************************************************************************
