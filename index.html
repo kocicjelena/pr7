@@ -35,8 +35,7 @@ function xmlParser(xml) {
 $(xml).find("Book").each(function () {
  $(".main").append('<div class="book"><div class="title">' + $(this).find("one").text() +   '</div><div class="tw">' + $(this).find("tw").text() + '</div><div   class="date">Published ' + $(this).find("t").text() + '</div></div>');
  
-   $("#images").append('<a href="http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1" onclick="javascript:void window.open('http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1','1400161055165','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;"><img src="' + $(this).find("one").text() + '" /></a>');
-	 $("#images2").append('<img src="' + $(this).find("tw").text() + '" />');
+   $("#images2").append('<img src="' + $(this).find("tw").text() + '" />');
 	  $("#images3").append('<img src="' + $(this).find("t").text() + '" />');
 
 
@@ -126,7 +125,7 @@ $(xml).find("Book").each(function () {
 
 
  <!-- <img src="https://www.dropbox.com/s/gslaewzbnv6o9jy/most.JPG" id="load" width="16" height="11"   align="absmiddle"/>-->
-gde je slika <div id="images"></div>main<div class="main"></div>
+gde je slika <div id="images2"></div>main<div class="main"></div>
 <img src="http://s13.postimg.org/c3oyicexz/image.jpg" />
 <footer>
 	 <div class="leftColumn">
