@@ -181,7 +181,7 @@ ul.egmenu li:hover ul { display: block;  }
 	height: 100%;
 	margin: 10px 0 10px;
 }
-footer {
+.footer {
     position:fixed;
    left:0px;
 	bottom: 0;
@@ -192,9 +192,9 @@ footer {
 	padding: 0;
 	
 }
-footer .leftColumn {  float: left;
+.leftColumn {  float: left;
     width: 50%; padding: 1.25em; margin-bottom: .5em; }
-footer .rightColumn { float: right;
+.rightColumn { float: right;
     width: 50%; padding: 1.25em;}
 /* Flexnav Base Styles */
 @media screen and (max-width: 980px) {
@@ -203,7 +203,7 @@ footer .rightColumn { float: right;
 	#wrapper {
 		width: 90%;
 	}
-    footer {position:fixed;
+    .footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
    
@@ -222,7 +222,7 @@ smaller than 650
 		width: 70%;
 	}
 
-	footer {position:fixed;
+	.footer {position:fixed;
 	width: 60%;
    left:0px;
    bottom:0px;font-size: 50%}
@@ -241,15 +241,15 @@ smaller than 560
     #wrapper	{
 		width: 60%;
 	}
-	footer {position:fixed;
+	.footer {position:fixed;
 	width: 40%;
    left:0px;
    bottom:0px;
    font-size: 40%}
  
-   footer.leftColumn { }
+   .leftColumn { }
 
-   footer.rightColumn { float: left; width: auto; }
+   .rightColumn { float: left; width: auto; }
 	
  
 	 ul.egmenu {  height: auto; }
@@ -260,14 +260,9 @@ smaller than 560
     ul.egmenu li.tap { background: #555;  }
     ul.egmenu li.tap ul { display: block;  }
 
-    footer {position:fixed;
+    footer.footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 20%}
-   img {
-	max-width: 0%;
-	border: 0; width: 0%; display: block; 
-	visibility: none;
-}
 #images2 {
   visibility: none;
 width: 0%;  
@@ -280,14 +275,7 @@ width: 0%;
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
     ul.egmenu li:hover ul { display: block;  }
-	 img {
-	max-width: 0%;
-	border: 0; width: 0%; display: block; 
-	visibility: none;
-}
-#images {
-float: left;
-}
+	
 #images2 {
   visibility: none;
 width: 0%;  
