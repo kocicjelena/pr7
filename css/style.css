@@ -232,19 +232,6 @@ footer .rightColumn { float: right;
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
-   img {
-	max-width: 60%;
-	border: 0; width: 60%; display: block; 
-	height: auto;
-    }
-    #images2 {
-		width: 60%;
-		height: auto;
-	}
-	#images3 {
-		width: 60%;
-		height: auto;
-	}
    
 }
 
@@ -264,19 +251,6 @@ smaller than 650
 	footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 50%}
-  #images2 {
-		width: 0%;
-		visibility:none;
-	}
-	#images3 {
-		width: 0%;
-		visibility:none;
-	}
-	img {
-	max-width: 0%;
-	border: 0; width: 0%; display: block; 
-	height: auto;
-}
 
 }
 
@@ -294,9 +268,6 @@ smaller than 560
 footer.leftColumn { }
 
 footer.rightColumn { float: none; width: auto; }
-#nav{}
-.menuone{visibility:show;top: 0;
-    right: 0%;}
 	
  
 	 ul.egmenu {  height: auto; }
@@ -310,14 +281,6 @@ footer.rightColumn { float: none; width: auto; }
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 20%}
-   #images2 {
-		width: 0%;
-		visibility:none;
-	}
-	#images3 {
-		width: 0%;
-		visibility:none;
-	}
 	}
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
