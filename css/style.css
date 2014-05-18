@@ -204,6 +204,7 @@ ul.egmenu li:hover ul { display: block;  }
 		width: 98%;
 	}
     .footer {
+	font-size: 98%;
     position:fixed;
    left:0px;
 	bottom: 0;
@@ -222,6 +223,7 @@ ul.egmenu li:hover ul { display: block;  }
 		width: 78%;
 	}
    .footer {
+   font-size: 78%;
     position:fixed;
    left:0px;
 	bottom: 0;
@@ -246,6 +248,7 @@ smaller than 650
 		width: 60%;
 	}
 	.footer {
+	font-size: 60%;
     position:fixed;
    left:0px;
 	bottom: 0;
@@ -274,9 +277,21 @@ smaller than 560
     #wrapper	{
 		width: 60%;
 	}
-   .leftColumn { }
+	.footer {
+	font-size: 30%;
+    position:fixed;
+   left:0px;
+	bottom: 0;
+    width: 60%;
+    background: #C0C0C0;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	
+}
+   .leftColumn { width: 60%}
 
-   .rightColumn { float: left; width: auto; }
+   .rightColumn { float: left; width: 60%;  }
 	
  
 	 ul.egmenu {  height: auto; }
