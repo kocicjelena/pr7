@@ -201,7 +201,7 @@ ul.egmenu li:hover ul { display: block;  }
 
 	/* pagewrap */
 	#wrapper {
-		width: 90%;
+		width: 70%;
 	}
    
 }
@@ -216,7 +216,7 @@ smaller than 650
 		height: auto;
 	}
 	#wrapper {
-		width: 70%;
+		width: 60%;
 	}
        .leftColumn { }
 
