@@ -290,7 +290,7 @@ smaller than 560
    .leftColumn { width: 60%}
 
    .rightColumn { float: left; width: 60%;  }
-	
+	h2{height: 30%;}
  
 	 ul.egmenu {  height: auto; }
     ul.egmenu > li {  float: none; width: 0%; }
@@ -314,6 +314,7 @@ smaller than 560
 	padding: 0;
 	
 }
+    h2{height: 30%;}
    .leftColumn { width: 30%}
 
    .rightColumn { float: left; width: 30%;  }
