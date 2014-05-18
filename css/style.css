@@ -324,6 +324,11 @@ footer .rightColumn { float: right;
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
+   img {
+	max-width: 90%;
+	border: 0; width: 90%; display: block; 
+	height: auto;
+}
     #images2 {
 		width: 60%;
 		height: auto;
@@ -400,6 +405,11 @@ smaller than 650
 		width: 0%;
 		visibility:none;
 	}
+	img {
+	max-width: 0%;
+	border: 0; width: 0%; display: block; 
+	height: auto;
+}
 
 }
 
