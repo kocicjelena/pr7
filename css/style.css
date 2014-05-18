@@ -324,6 +324,14 @@ footer .rightColumn { float: right;
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
+    #images2 {
+		width: 60%;
+		height: auto;
+	}
+	#images3 {
+		width: 60%;
+		height: auto;
+	}
    
 }
 
@@ -384,7 +392,14 @@ smaller than 650
 	footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 50%}
-   img { border: 0; width: 20%; display: block; max-width: 20%; }
+  #images2 {
+		width: 0%;
+		visibility:none;
+	}
+	#images3 {
+		width: 0%;
+		visibility:none;
+	}
 
 }
 
@@ -459,7 +474,6 @@ footer.rightColumn { float: none; width: auto; }
 		width: 0%;
 		visibility:none;
 	}
-	img { border: 0; width: 0%; display: block; max-width: 0%; }
 	}
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
