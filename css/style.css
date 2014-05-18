@@ -4,8 +4,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 *, *:before, *:after {
   -moz-box-sizing: border-box; 
-  -webkit-box-sizing: 
-  border-box; 
+  -webkit-box-sizing: border-box; 
   box-sizing: border-box;
   }
 body { line-height:1; }
@@ -25,45 +24,7 @@ body {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	-webkit-text-size-adjust: none;
 }
-.sidh {
-		
-		width: 0%;
-		visibility:hidden;
-		position: fixed;
-    top: 0;
-    right: 0%;
-    padding-right: 45px;
-	}
-#show_ul {
-		display: block;
-      
-		width: 0%;
-		visibility:none;
-		position: fixed;
-    top: 0;
-    right: 0%;
-    padding-right: 45px;
-	}
-	.sidul {
-		
-		width: 100%;
-		position: fixed;
-    top: 0;
-    right: 0%;
-    padding-right: 45px;
-	}
-	.sidul ul{float: left;
-      display: block;
-      background-color: #a6a6a2;
-      overflow: visible;}
-	.ver{
-	position: relative;
-  display: block;
-  padding: 1em;
-  background: black;
-  color: black;
-  cursor: pointer;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
 img {
 	max-width: 100%;
 	border: 0; width: 100%; display: block; 
@@ -237,45 +198,11 @@ ul.egmenu li:hover ul { display: block;  }
 	position: absolute;
 
 }
-#div2#sideLeft
-{   background: black;
-    float: right;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-}
 #wrapper{
 	width: 100%;
 	height: 100%;
 	margin: 10px 0 10px;
 }
-#box {
-	position: absolute;
-	float: left;
-	bottom: 176px;
-    display: block;
-	width: 160px;
-    
-}
-
-
-#middle {
-    position: relative;
-}
-#content {
-    padding-top: 200px;
-	position: relative;
-	
-
-	width: 460px;
-	float: right;
-}
-
-#navlist{position:relative;}
-#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
-#navlist li, #navlist a{height:44px;display:block;}
-
-#next{left:129px;width:43px;}
 footer {
     position:fixed;
    left:0px;
@@ -299,36 +226,17 @@ footer .rightColumn { float: right;
 @media screen and (max-width: 980px) {
 
 	/* pagewrap */
-	.sid {
-		width: 0%;
-		visibility:none;
-	}
-    .sidh {
-		
-		width: 0%;
-		visibility:none;}
-	/* content */
-	.content {
-		width: 60%;
-		padding: 3% 4%;
-	}
-
-	/* sidebar */
-	.sidebar {
-		width: 30%;
-	}
-	#sidebar .widget {
-		padding: 8% 7%;
-		margin-bottom: 10px;
+	.module {
+		width: 90%;
 	}
     footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 70%}
    img {
-	max-width: 90%;
-	border: 0; width: 90%; display: block; 
+	max-width: 60%;
+	border: 0; width: 60%; display: block; 
 	height: auto;
-}
+    }
     #images2 {
 		width: 60%;
 		height: auto;
@@ -349,51 +257,10 @@ smaller than 650
 	header {
 		height: auto;
 	}
-	.sidh {
-		
-		width: 100%;
-		visibility:visible;
-		position: fixed;
-    top: 0;
-    right: 0%;
-    padding-right: 45px;
-	}
-	/* main nav */
-	.sid {
-		float: right;
-		width: 100%;
-		visibility:show;
-	}
-	.main{
-		position: static;
+	.module {
+		width: 60%;
 	}
 
-	/* site logo */
-	#site-logo {
-		margin: 15px 100px 5px 0;
-		position: static;
-	}
-
-
-	/* content */
-	.content {
-		width: 30%;
-		float: none;
-		margin: 20px 0;
-	}
-
-	/* sidebar */
-	.sidebar {
-		width: 10%;
-		margin: 0;
-		float: none;
-	}
-	.menu{font-family: 'trebuchet ms', sans-serif;
-  font-size: 60%;}
-	#sidebar .widget {
-		padding: 3% 4%;
-		margin: 0 0 10px;
-	}
 	footer {position:fixed;
    left:0px;
    bottom:0px;font-size: 50%}
@@ -421,42 +288,9 @@ smaller than 560
 	/* disable webkit text size adjust (for iPhone) */
 	html {
 		-webkit-text-size-adjust: none;
+	}.module {
+		width: 40%;
 	}
-	.sid {
-		width: 100%;
-		visibility:show;
-	}
-	footer {font-size: 30%}
-	.sidh {
-		
-		width: 100%;
-		visibility:visible;
-		position: fixed;
-    top: 0;
-    right: 0%;
-    padding-right: 45px;
-	}
-	.menu{font-family: 'trebuchet ms', sans-serif;
-  font-size: 50%;}
-	.site_content
-	{width: 0%;}
-    .sidebar {
-		width: 50%;
-		visibility:show;
-	}
-	.content {
-		width: 50%;
-		float: none;
-		margin: 20px 0;
-	}
-	/* main nav */
-	#main a {
-		font-size: 90%;
-		padding: 10px 8px;
-	
-	
-
-}
 footer.leftColumn { }
 
 footer.rightColumn { float: none; width: auto; }
