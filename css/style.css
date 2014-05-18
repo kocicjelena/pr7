@@ -54,8 +54,8 @@ header {
   > div{padding: 0 1rem; display:inline-block; float:left; background: PURPLE;}
   > footer{padding: 0 1rem;}
   @media only screen and (max-width: 680px) {
-    width:70% !important;
-    height:70%;
+    width:50% !important;
+    height:50%;
   }
   @media only screen and (max-width: 320px) {
     width:40% !important;
@@ -218,15 +218,11 @@ footer .leftColumn {  float: left;
     width: 50%; padding: 1.25em; margin-bottom: .5em; }
 footer .rightColumn { float: right;
     width: 50%; padding: 1.25em;}
-.sid {
-		width: 0%;
-		visibility:none;
-	}
 /* Flexnav Base Styles */
 @media screen and (max-width: 980px) {
 
 	/* pagewrap */
-	.module {
+	#wrapper {
 		width: 90%;
 	}
     footer {position:fixed;
@@ -244,7 +240,7 @@ smaller than 650
 	header {
 		height: auto;
 	}
-	.module {
+	#wrapper {
 		width: 60%;
 	}
 
@@ -262,7 +258,8 @@ smaller than 560
 	/* disable webkit text size adjust (for iPhone) */
 	html {
 		-webkit-text-size-adjust: none;
-	}.module {
+	}
+    #wrapper	{
 		width: 40%;
 	}
 footer.leftColumn { }
