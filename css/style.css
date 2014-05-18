@@ -203,7 +203,17 @@ ul.egmenu li:hover ul { display: block;  }
 	#wrapper {
 		width: 98%;
 	}
-   
+    .footer {
+    position:fixed;
+   left:0px;
+	bottom: 0;
+    width: 98%;
+    background: #C0C0C0;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	
+}
 }
 @media screen and (max-width: 780px) {
 
@@ -211,7 +221,17 @@ ul.egmenu li:hover ul { display: block;  }
 	#wrapper {
 		width: 78%;
 	}
-   
+   .footer {
+    position:fixed;
+   left:0px;
+	bottom: 0;
+    width: 78%;
+    background: #C0C0C0;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	
+}
 }
 /************************************************************************************
 smaller than 650
@@ -225,9 +245,20 @@ smaller than 650
 	#wrapper {
 		width: 60%;
 	}
-       .leftColumn { }
+	.footer {
+    position:fixed;
+   left:0px;
+	bottom: 0;
+    width: 60%;
+    background: #C0C0C0;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	
+}
+       .leftColumn { width: 60%;}
 
-   .rightColumn { float: left; width: auto; }
+   .rightColumn { float: left; width: 60%; }
 
 }
 
