@@ -119,9 +119,11 @@ float: left;
 }
 #images2 {
   display: inline-block; 
+  width: 90%;
 }
 #images3 {
   display: inline-block; 
+  width: 90%;
 }
 .clearBoth { clear:both; }
 .stripe-2 {
@@ -326,11 +328,11 @@ footer .rightColumn { float: right;
    bottom:0px;font-size: 70%}
    #images2 {
   display: inline-block; 
-  width: 70%;
+  width: 60%;
 }
 #images3 {
   display: inline-block; 
-  width: 70%;
+  width: 60%;
 }
    
 }
@@ -395,11 +397,11 @@ smaller than 650
    img { border: 0; width: 60%; display: block; max-width: 60%; }
    #images2 {
   display: inline-block; 
-  width: 70%;
+  width: 50%;
 }
 #images3 {
   display: inline-block; 
-  width: 70%;
+  width: 50%;
 }
 
 }
