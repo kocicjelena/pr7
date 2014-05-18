@@ -251,7 +251,6 @@ smaller than 650
 	font-size: 60%;
     position:fixed;
    left:0px;
-	bottom: 0;
     width: 60%;
     background: #C0C0C0;
     height: auto;
@@ -278,10 +277,9 @@ smaller than 560
 		width: 60%;
 	}
 	.footer {
-	font-size: 30%;
+	font-size: 20%;
     position:fixed;
    left:0px;
-	bottom: 0;
     width: 60%;
     background: #C0C0C0;
     height: auto;
@@ -305,5 +303,18 @@ smaller than 560
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
     ul.egmenu li:hover ul { display: block;  }
+	.footer {
+	font-size: 10%;
+    position:fixed;
+   left:0px;
+    width: 30%;
+    background: #C0C0C0;
+    height: auto;
+	margin: 0;
+	padding: 0;
 	
+}
+   .leftColumn { width: 30%}
+
+   .rightColumn { float: left; width: 30%;  }
 }
