@@ -203,9 +203,6 @@ ul.egmenu li:hover ul { display: block;  }
 	#wrapper {
 		width: 90%;
 	}
-    .footer {position:fixed;
-   left:0px;
-   bottom:0px;font-size: 90%}
    
 }
 
@@ -224,10 +221,6 @@ smaller than 650
        .leftColumn { }
 
    .rightColumn { float: left; width: auto; }
-	.footer {position:fixed;
-	width: 70%;
-   left:0px;
-   bottom:0px;font-size: 50%}
 
 }
 
@@ -262,10 +255,6 @@ smaller than 560
     ul.egmenu li.tap { background: #555;  }
     ul.egmenu li.tap ul { display: block;  }
 
-    footer.footer {position:fixed;
-   left:0px;
-   bottom:0px;font-size: 40%}
-	}
 @media all and (min-width: 481px) {
     ul.egmenu li:hover { background: #555;  }
     ul.egmenu li:hover ul { display: block;  }
