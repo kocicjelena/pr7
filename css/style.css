@@ -201,11 +201,18 @@ ul.egmenu li:hover ul { display: block;  }
 
 	/* pagewrap */
 	#wrapper {
-		width: 70%;
+		width: 98%;
 	}
    
 }
+@media screen and (max-width: 780px) {
 
+	/* pagewrap */
+	#wrapper {
+		width: 78%;
+	}
+   
+}
 /************************************************************************************
 smaller than 650
 *************************************************************************************/
@@ -236,12 +243,6 @@ smaller than 560
     #wrapper	{
 		width: 60%;
 	}
-	.footer {position:fixed;
-	width: 40%;
-   left:0px;
-   bottom:0px;
-   font-size: 40%}
- 
    .leftColumn { }
 
    .rightColumn { float: left; width: auto; }
